@@ -3,7 +3,7 @@ import { FlipWords } from './MinimalistHero/FlipWords';
 
 export default function MinimalistHero() {
   return (
-    <section id="home" className="container max-w-7xl mx-auto py-10">
+    <section id="home" className="relative container max-w-7xl mx-auto py-10">
       <h1 className="text-4xl font-bold">Eager to Master the Art of</h1>
       <h1 className="text-4xl font-bold text-blue-500 transition duration-200">
         <FlipWords words={[

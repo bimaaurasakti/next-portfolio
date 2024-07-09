@@ -2,7 +2,7 @@ import ButtonCopyEmail from "./NavigationBar/ButtonCopyEmail";
 
 export default function NavigationBar() {
   return (
-    <nav className="py-4">
+    <nav className="relative py-4">
       <div className="container max-w-7xl mx-auto">
         <div className='flex justify-between items-center'>
           <div className="flex items-center">
