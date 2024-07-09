@@ -33,7 +33,6 @@ export default function CardProjectList({
 
   // handling filter key change
   useEffect(() => {
-    console.log(filter)
     if (filter == "*") isotope.current?.arrange({ filter: `*` });
     else isotope.current?.arrange({ filter: `.${filter}` });
     setFilterKey(filter)

@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <main>
       <div className='relative'>
+        <BackgroundBeams />
         <NavigationBar />
         <MinimalistHero />
-        <BackgroundBeams />
       </div>
       <ProjectList />
     </main>
