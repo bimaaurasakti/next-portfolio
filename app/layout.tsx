@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavigationBar from "@/components/Home/NavigationBar";
 import StoreProvider from './storeProvider';
 
 
@@ -23,7 +22,7 @@ export default function RootLayout({
         {/* 
           TODO LIST - Aceternity
           - [✔️] Add dark mode
-          - [➖] Background Beams
+          - [✔️] Background Beams
           - [➖] Background Gradient (Optional)
           - [➖] Bento Grid
           - [➖] Container Scroll Animation
@@ -42,7 +41,6 @@ export default function RootLayout({
           - [➖] Vortex
         */}
         <StoreProvider>
-          <NavigationBar />
           {children}
         </StoreProvider>
       </body>
