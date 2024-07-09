@@ -1,10 +1,62 @@
-export const projectTechs = [
+export const techs = [
   { name: "Laravel", img: "logo/laravel.svg", imgStyle: "w-6 h-6" },
-  { name: "Nuxt.js", img: "logo/nuxtjs.svg", imgStyle: "w-9 h-9" },
+  { name: "NuxtJS", img: "logo/nuxtjs.svg", imgStyle: "w-9 h-9" },
   { name: "Django", img: "logo/django.svg", imgStyle: "w-14 h-14" },
   { name: "Flutter", img: "logo/flutter.svg", imgStyle: "w-6 h-6" },
+  { name: "Wordpress", img: "logo/wordpress.svg", imgStyle: "w-9 h-9" },
   { name: "Golang", img: "logo/golang.svg", imgStyle: "w-14 h-14" },
-  { name: "Next.js", img: "logo/nextjs.svg", imgStyle: "w-14 h-14" },
-  { name: "Nest.js", img: "logo/nestjs.svg", imgStyle: "w-6 h-6" },
+  { name: "NextJS", img: "logo/nextjs.svg", imgStyle: "w-14 h-14" },
+  { name: "NestJS", img: "logo/nestjs.svg", imgStyle: "w-6 h-6" },
   { name: "Solidity", img: "logo/solidity.svg", imgStyle: "w-9 h-9" },
+];
+
+export const projectPortfolio = [
+  {
+    title: "Texio Landing Page",
+    subTitle: "Create landing page for Texio",
+    logo: "/projects/texio-landing-page/logo.png",
+    thumbnail: "/projects/texio-landing-page/image-1.png",
+    technology: ["Wordpress"],
+    show: true,
+  },
+  { 
+    title: "Chill Food & Hoki", 
+    subTitle: "Create Admin Dashboard Cafe App",
+    logo: "/projects/coki/logo.png", 
+    thumbnail: "/projects/coki/image-1.png", 
+    technology: ["Laravel", "Flutter"], 
+    show: true,
+  },
+  { 
+    title: "Moutasa Bank Sampah", 
+    subTitle: "Create Moutasa App and Admin Dashboard",
+    logo: "/projects/moutasa/logo.png", 
+    thumbnail: "/projects/moutasa/image-1.png", 
+    technology: ["Laravel", "Flutter"], 
+    show: true,
+  },
+  { 
+    title: "Trulychoco", 
+    subTitle: "Create Trulychoco E-Commerce Website",
+    logo: "/projects/trulychoco/logo.png", 
+    thumbnail: "/projects/trulychoco/image-1.png", 
+    technology: ["Laravel", "NuxtJS", "Flutter"], 
+    show: true,
+  },
+  { 
+    title: "Study Sync", 
+    subTitle: "Create Student Sharing Homework List",
+    logo: "/projects/study-sync/logo.png", 
+    thumbnail: "/projects/study-sync/image-1.png", 
+    technology: ["Laravel"], 
+    show: true,
+  },
+  { 
+    title: "Radiodiagnostic", 
+    subTitle: "Create Caries Segmentation ML",
+    logo: "/projects/radiodiagnostic/logo.png", 
+    thumbnail: "/projects/radiodiagnostic/image-1.png", 
+    technology: ["Django"], 
+    show: true,
+  },
 ];
