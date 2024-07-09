@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavigationBar from "@/components/Home/NavigationBar";
+import StoreProvider from './storeProvider';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -40,8 +41,10 @@ export default function RootLayout({
           - [➖] Spotlight
           - [➖] Vortex
         */}
-        <NavigationBar />
-        {children}
+        <StoreProvider>
+          <NavigationBar />
+          {children}
+        </StoreProvider>
       </body>
     </html>
   );
